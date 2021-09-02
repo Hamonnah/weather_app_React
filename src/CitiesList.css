@@ -1,0 +1,32 @@
+.CitiesList {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.CitiesList ul.TheList li {
+    list-style: none;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-top: 1px;
+    line-height: 2;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.City {
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+}
+
+.Temp {
+    display: block;
+}
+
+.Humidity {
+    display: block;
+}
+
