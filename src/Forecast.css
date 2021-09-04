@@ -1,0 +1,13 @@
+.Weather {
+    margin: 20px;
+}
+
+.Weather input {
+    font-size: 18px;
+    line-height: 2;
+    padding: 0 5px;
+}
+
+.Weather input:focus {
+    outline-color: darkgray;
+}

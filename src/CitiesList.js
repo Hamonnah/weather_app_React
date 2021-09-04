@@ -8,7 +8,7 @@ function CitiesList(props) {
    let liElements = citiesList.map((weatherObj) => {
 
     return(
-       <li key={weatherObj.stacja}>
+       <li key={weatherObj.id_stacji}>
            <span className="City">{weatherObj.stacja} </span>
            <span className="Temp">Temperatura: {weatherObj.temperatura}&ordm;C </span>
            <span className="Humidity">Wilgotność: {weatherObj.wilgotnosc_wzgledna}&#x00025; </span>
