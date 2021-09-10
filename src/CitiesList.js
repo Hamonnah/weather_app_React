@@ -10,7 +10,7 @@ function CitiesList(props) {
     return(
        <li key={weatherObj.id_stacji}>
            <span className="City">{weatherObj.stacja} </span>
-           <span className="Temp">Temperatura: {weatherObj.temperatura}&ordm;C </span>
+           <span className={(weatherObj.temperatura>20)?'red' : 'blue'}>Temperatura: {weatherObj.temperatura}&ordm;C </span>
            <span className="Humidity">Wilgotność: {weatherObj.wilgotnosc_wzgledna}&#x00025; </span>
            <span className="Pressure">Ciśnienie: {weatherObj.cisnienie} hPa </span>
        </li> 

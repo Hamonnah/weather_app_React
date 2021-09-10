@@ -11,3 +11,11 @@
 .Weather input:focus {
     outline-color: darkgray;
 }
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
