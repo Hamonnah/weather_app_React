@@ -5,9 +5,11 @@ button {
     color: white;
     font-size: 18px;
     border: 1px solid #282c34;
+    display: inline-block;
 }
 
-button:hover, button:focus {
+button:hover,
+button:focus {
     background-color: #003399;
     border: 1px solid #003399;
     cursor: pointer;

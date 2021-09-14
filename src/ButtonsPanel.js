@@ -3,14 +3,13 @@ import './ButtonsPanel.css';
 
 function ButtonsPanel(props) {
 
-    return(
+    return (
         <div className="buttons-panel">
-            <button onClick={props.tempDescMethod}>Sortuj Od Najcieplejszego do Najzimniejszego</button>
-            {/* <button onClick={props.filterCitiesList}>Sortuj Alfabetycznie</button>
-            <button onClick={props.sortTempDesc}>Sortuj Od Najcieplejszego do Najzimniejszego</button>
-            <button onClick={props.sortTempAsc}>Sortuj Od Najzimniejszego do Najcieplejszego</button>   */}
+            <button onClick={props.tempDescMethod}>Sort in Descending Order</button>
+            <button onClick={props.tempAscMethod}>Sort in Ascending Order</button>
+            <button onClick={props.filterCitiesListMethod}>Sort in Alphabetical Order</button>
         </div>
-    ); 
+    );
 }
 
 export default ButtonsPanel;

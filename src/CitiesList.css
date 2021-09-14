@@ -10,8 +10,9 @@
     border: 1px solid #ccc;
     margin-top: 1px;
     line-height: 2;
-    padding: 5px 20px;
+    padding: 20px 20px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 @media (max-width: 992px) {
@@ -25,6 +26,7 @@
         width: 100%;
     }
 }
+
 .City {
     font-weight: bold;
     font-size: 30px;
@@ -38,4 +40,3 @@
 .Humidity {
     display: block;
 }
-
